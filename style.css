@@ -1,0 +1,145 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-title h3 {
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.hr-style {
+    border: 5px dotted #f00;
+    opacity: 1;
+    border-bottom: none;
+    width: 100px;
+    margin: 10px auto;
+}
+
+/* HEADER AREA STARTS  */
+
+header {
+    background-image: url(img/school.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.navbar {
+    padding: 5px 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-icon {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    background-color: #f00;
+    color: white;
+    transform: scale(1.1);
+}
+
+.banner-container {
+    height: 100vh;
+}
+
+.banner-container h1 {
+    font-size: 50px;
+    background-color: rgba(7, 101, 189, 0.5);
+    padding: 5px 50px;
+    font-family: 'Handlee', cursive;
+    border-radius: 5px;
+}
+
+/* HEADER AREA ENDS */
+
+/* FEATURES AREA STARTS */
+
+
+
+.features-col {
+    border: 1px solid #ff02c0;
+    color: #000;
+    transition: 0.5s;
+}
+
+.features-col:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+.icon-style {
+    background-color: #bb0aac;
+    color: white;
+    padding: 15px;
+    margin: 5px 0px;
+}
+
+/* FEATURES AREA ENDS */
+
+/* TUTORIAL AREA STARTS */
+
+#tutorial {
+    background-color: #a3d2ca;
+}
+
+.card {
+    transition: 0.5s;
+    border: 1px solid #ff02c0;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px black;
+}
+
+/* TUTORIAL AREA ENDS */
+
+/* RESPONSIV AREA STARTS */
+
+@media (max-width:768px) {
+
+    .nav-link {
+        margin-left: 0;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, .5);
+    }
+
+    .nav-link:hover {
+        background-color: #000;
+    }
+
+    .banner-container h1 {
+        font-size: 40px;
+    }
+
+}
+
+/* RESPONSIV AREA ENDS */
